@@ -1,1 +1,1 @@
-# online-japanese-grocery-store
+# Irene Nguyen and Mana Misumi T3A2 Full Stack App
