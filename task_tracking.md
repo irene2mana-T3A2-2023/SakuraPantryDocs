@@ -67,12 +67,10 @@ For Stage 1, we set one week as one sprint.
 
 **Day 1 and Day 2**: Create an outline of project description. Create a project management plan. Discuss workflow and task delegation for sprint 1. Create GitHub organization and a repository for project documentation (Part A). Starting on R1, R4, R5, R6. 
 
-![Day1&2-1](./docs/trello_screenshots/Phase1-Day1&2-1511-1.png)
-![Day1&2-2](./docs/trello_screenshots/Phase1-Day1&2-1511-2.png)
+![Day1&2-1](./docs/trello_screenshots/Stage1-Day1&2-151611-1.png)
+![Day1&2-2](./docs/trello_screenshots/Stage1-Day1&2-151611-2.png)
 
-**Day 3**:
+**Day 3**: Complete R1-Project Description. Discuss user stories and brand design. 
 
-Updating soon...
-
-
+![Day3](./docs/trello_screenshots/Stage1-Day3-1711.png)
 
