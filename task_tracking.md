@@ -6,13 +6,13 @@
 
 - In this project, we have chosen Kanban as the main framework for implementing Agile methodology. We focus on team collaboration, continuous delivery and continuous improvement. To achieve that, we use a combination of Kanban and Scrum methodology.
 
-  - For continuous improvement, we use Scrum for sprint planning, daily stand-ups, sprint review and retrospective. Every end of a sprint, we will have a meeting to review what we have achieved, what needs to be improved for the next sprint and what set of tasks we will be working on in the following sprint. We also have daily stand-ups via Discord channel for updating work progress. Communication is key when working with GitHub, we make sure to notify others when a branch is created for new task/feature and a new pull request is made.
+  - For continuous improvement, we use Scrum for sprint planning, daily stand-ups, sprint review and retrospective. Every end of a sprint, we have a meeting to review what we have achieved, what needs to be improved for the next sprint and what set of tasks we will be working on in the following sprint. We also have daily stand-ups via Discord channel for updating work progress. Communication is key when working with GitHub, we make sure to notify others when a branch is created for new task/feature and a new pull request is made.
 
   - For continuous delivery, we use Kanban. Kanban emphasizes visualizing tasks and feedback, real-time communicating and maximizing efficiency. There is no time constraint in Kanban, instead, the approach encourages to get things done in the shortest time within a set sprint, this allows the team to respond to changes faster, hence, optimizing workflow. If there is an issue, it needs to be raised in the task card or via Discord channel, so the other members can participate in resolving the problem and quickly move on to the next task.
 
   - Tasks are broken down from biggest objectives (initiatives/requirements) to the smallest details (user stories), so that they are visible, manageable and achievable.
 
-**Part B task planning and delegation will be explain more here.....**
+**Part B task planning and delegation will be explained more here.....**
 
 ## Kanban board
 
@@ -62,7 +62,7 @@ There are three main tasks in the development process:
 
 See the below screenshots of tasks tracking on Trello for the Stage 1:
 
-For Stage 1, we set one week as one sprint.
+For Stage 1, we set one week as one sprint. We have decided to start a new sprint on Tuesdays.
 
 ### Sprint 1 (Day 1 to Day 7)
 
