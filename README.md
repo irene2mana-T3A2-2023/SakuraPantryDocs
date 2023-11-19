@@ -45,16 +45,16 @@ The app targets shoppers across Australia who are looking for unique and quality
 - Japanese food products lovers
 
 ## User Stories 
-We construct user stories and personas to improve the online store's user experience for Japanese food products. The process involves identifying and embodying potential users' unique needs and expectations, including a system administrator at Sakura company.
+We constructed user stories and personas to improve the online store's user experience for Japanese food products. The process involves identifying and embodying customers' unique needs and expectations, including a system administrator at Sakura company.
 
-A problem Shizuka faces is the difficulty travelling to supermarkets where authentic Japanese food products are available, even with her three children. With the demands of raisingtrello  her children, she also needs to save time when shopping for her daily food. She is particularly concerned about the security of websites, especially when shopping online, and prefers to use sites that offer a secure login facility.
-![Shizuka-Kagami](./docs/images/user-pesonas/Sizuka-kagami.png)
+Shizuka finds it challenging to travel to supermarkets where authentic Japanese food products are available whilst caring for her three children. Given the demands of raising her children, she is also looking for ways to save time when shopping for her daily food. She is also particularly concerned about the security of websites, especially when shopping online, and prefers to use sites that offer a secure login feature.
+![Ronnie-](./docs/images/user-pesonas/Shizuka-kagami.png)
 
-On the other hand, Ronnie, a user who has recently become addicted to Japanese food, also faces difficulties in finding Japanese foodstuffs locally. Ronnie is also an engineer. The engineer, Ronnie, also expects the system's ease of use and accessibility to the information required.
+On the other hand, Ronnie, a user who has recently become addicted to Japanese food, faces difficulties in finding Japanese food products locally. Ronnie's need to enjoy a wide variety of Japanese food products requires easy access to various categorised product options. Ronnie also expects the system to be easy to use and accessible to the necessary information.
 ![Ronnie-](./docs/images/user-pesonas/Ronnie-Campbell.png)
 
 
-The final user story focuses on Lara, a system administrator at Sakura Company. She aims to ensure efficient operations and deliver the best user experience. High-quality user and product inventory management are essential to achieve this goal. The system is expected to be intuitive, easy to understand, and provide easy access to crucial functions.
+The final user story focuses on Lara, a system administrator at Sakura Company. She aims to ensure efficient operations and deliver the best user experience. A reliable user database and product inventory management are essential to achieve this goal. The system is expected to be intuitive, easy to understand, and provide easy access to crucial functions.
 ![Lara-Macintosh](./docs/images/user-pesonas/Lara-Macintosh.png)
 
 ## Functionality/Features
