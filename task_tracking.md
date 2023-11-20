@@ -77,3 +77,7 @@ For Stage 1, we set one week as one sprint. We have decided to start a new sprin
 **Day 4**: Start working on colour scheme and brand design for the website. Complete the description for chosen planning methodology (Part A). Discuss more on user stories, wireframes and dataflow diagrams. 
 
 ![Day4](./docs/trello_screenshots/Stage1-Day4-1811.png)
+
+**Day 5 and Day 6**: Complete brand design and decide on colour scheme. Still working on refining user stories, wireframes. Reviewing Application Architecture Diagram. 
+
+![Day5&6](./docs/trello_screenshots/Stage1-Day5&6-192011.png)
