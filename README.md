@@ -87,6 +87,8 @@ The MVP includes two parts: the static website and the admin dashboard. The over
 - Admins can perform CRUD operations on product categories.
 - A nice-to-have functionality: Admins can have the following operations on product orders, including search orders, view orders, edit orders and track orders.
 
+## Sitemap
+![Sitemap](./docs/images/sitemap/sitemap.png)
 
 ## Tech Stack
 
