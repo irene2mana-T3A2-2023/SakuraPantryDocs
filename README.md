@@ -119,8 +119,7 @@ The core tech stack is MERN stack.
 
 View the description of the way tasks are allocated and tracked in the project [here]().
 
-
-
+Link to project management tool [Trello](https://trello.com/b/TE5Q9ZYj/t3a2-%F0%9F%8C%B8sakura-pantry).
 
 
 
