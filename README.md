@@ -55,12 +55,14 @@ The MVP includes two parts: the static website and the admin dashboard. The over
 ### Features
 
 - User authentication and authorisation (Register and Login/Logout)
-- Sign-up confirmation via email 
+- Sign-up confirmation via email
+- Saved login details
 - Site navigation
 - Product search by name and by categories
 - Product details view
 - Showcase of new arrivals and featured products
 - Shopping cart checkout
+- Calculation for different delivery options
 - Billing services
 - Order confirmation via email 
 - Contact form
@@ -116,7 +118,7 @@ The core tech stack is MERN stack.
 
 # Tasks planning and tracking
 
-View the description of the way tasks are allocated and tracked in the project [here]().
+View the description of the way tasks are allocated and tracked in the project [here](./task_tracking.md).
 
 Link to project management tool [Trello](https://trello.com/b/TE5Q9ZYj/t3a2-%F0%9F%8C%B8sakura-pantry).
 
