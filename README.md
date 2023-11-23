@@ -20,11 +20,10 @@
 
 ## Purpose
 
-We were approached by the owner of Sakura Company, a Japanese food wholesaler, to create an online store for Japanese food products.
+We were approached by the owner of Sakura Company, a Japanese food wholesaler, to create an online store for Japanese food products. 
 
-The web app serves three main purposes:
-
-- To promote and increase access to Japanese food.
+The web app serves three main purposes: 
+- To promote and increase access to Japanese food. 
 - To provide a service to the Japanese community in Australia and to those who love Japanese food products.
 - To contribute to business and sales growth for the client, Sakura Company.
 
@@ -67,9 +66,9 @@ The MVP includes two parts: the static website and the admin dashboard. The over
 - Contact form
 - User account view
 - Admin dashboard:
-  - User management
-  - Product management
-  - Order management (nice to have)
+    - User management
+    - Product management
+    - Order management (nice to have)
 
 ### Functionality
 
