@@ -47,46 +47,60 @@ The app targets shoppers across Australia who are looking for unique and quality
 
 Working in progress...
 
-## Functionality/Features
+## Features/Functionality
 
-The MVP includes two parts: the static website and the admin dashboard. The overall function of the website is to operate as an online store for selling Japanese food products.
+The overall function of the website is to operate as an online store for selling Japanese food products. Below are the MVP features and functionality for the current stage of product development. 
 
-### Features
+### MVP Features
 
 - User authentication and authorisation (Register and Login/Logout)
-- Sign-up confirmation via email
-- Saved login details
+- Password recovery
 - Site navigation
 - Product search by name and by categories
 - Product details view
 - Showcase of new arrivals and featured products
 - Shopping cart checkout
-- Calculation for different delivery options
-- Billing services
-- Order confirmation via email
 - Contact form
 - User account view
+  - User profile
+  - Reset password
+  - Purchase history
 - Admin dashboard:
+  - Summary view
   - User management
   - Product management
-  - Order management (nice to have)
+  - Order management
 
-### Functionality
+### MVP Functionality
 
 #### Users
 
 - Website visitors without authentication can view products.
 - Website visitors can add products to cart and will be prompted to register or log in if they wish to proceed to payment.
-- Users with authentication can perform CRUD operations on personal account information.
+- Users with authentication can perform Create, Read, Update, Account Deactivate operations on personal account information. 
 - Users with authentication can perform CRUD operations on product orders.
-- Users with authentication can perform CRUD operations on billing and delivery information.
 
 #### Admins
 
-- Admins can perform CRUD operations on users' information.
+- Admins can perform Read operations on users' information.
 - Admins can perform CRUD operations on products.
 - Admins can perform CRUD operations on product categories.
-- A nice-to-have functionality: Admins can have the following operations on product orders, including search orders, view orders, edit orders and track orders.
+- Admins can perform Read and Update operations on orders.
+
+### Possible extensions
+
+#### Nice-to-have features
+- Sign-up confirmation via email
+- Saved login details
+- Calculation for different delivery options
+- Billing services
+- Order confirmation via email
+
+#### Nice-to-have functionality
+
+- Full CRUD operations on billing and delivery information for users with authentication.
+- Full CRUD operations on users' information for admins.
+
 
 ## Sitemap
 
