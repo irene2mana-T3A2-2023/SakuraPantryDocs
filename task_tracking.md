@@ -68,23 +68,30 @@ For Stage 1, we set one week as one sprint. We have decided to start a new sprin
 
 **Day 1 and Day 2**: Create an outline of project description. Create a project management plan. Discuss workflow and task delegation for sprint 1. Create GitHub organization and a repository for project documentation (Part A). Starting on R1, R4, R5, R6.
 
-![Day1&2](./docs/images/trello_screenshots/Stage1-Day1&2-151611.png)
+
+![PartA-Sprint1-Day1&2](./docs/images/trello_screenshots/Stage1-Sprint1-Day1&2-151611.png)
 
 **Day 3**: Complete R1-Project Description. Discuss user stories and brand design.
 
-![Day3](./docs/images/trello_screenshots/Stage1-Day3-1711.png)
+![PartA-Sprint1-Day3](./docs/images/trello_screenshots/Stage1-Sprint1-Day3-1711.png)
+
 
 **Day 4**: Start working on colour scheme and brand design for the website. Complete the description for chosen planning methodology (Part A R6). Discuss more on user stories, wireframes and dataflow diagrams.
 
-![Day4](./docs/trello_screenshots/Stage1-Day4-1811.png)
+![PartA-Sprint1-Day4](./docs/images/trello_screenshots/Stage1-Sprint1-Day4-1811.png)
 
 **Day 5 and Day 6**: Complete brand design and decide on colour scheme. Still working on refining user stories, wireframes. Reviewing Application Architecture Diagram.
 
-![Day5&6](./docs/trello_screenshots/Stage1-Day5&6-192011.png)
+![PartA-Sprint1-Day5&6](./docs/images/trello_screenshots/Stage1-Sprint1-Day5&6-192011.png)
 
 **Day 7**: End of sprint 1. All tasks have been planned out. A drafted version of R3, R4, R5 have been completed, discussed and reviewed among team members. The next set of tasks for sprint 2 will focus on the refinement of R3, R4, R5 before publishing to README.md. Discuss the multiple diagrams approach for dataflow diagrams, tasks have been delegated for completing R2 in the next sprint.
 
-![Day7](./docs/trello_screenshots/Stage1-Day7-2111.png)
+![PartA-Sprint1-Day7](./docs/images/trello_screenshots/Stage1-Sprint1-Day7-2111.png)
 
 ### Sprint 2
+
+**Day 1 and Day 2**: Start of sprint 2. Complete website sitemap and Application Architecture Diagram (R3). Discuss on MVP approach to decide on keeping basic features/functionality that are achievable within the project scope. Working on adjustments for R1, R4 to align with changes of features/functionality. Still working on refining wireframes (R5). Discuss a new approach on Dataflow Diagrams (R2).
+
+![PartA-Sprint2-Day1&2](./docs/images/trello_screenshots/Stage1-%20Sprint2-Day1&2-222311.png)
+
 
