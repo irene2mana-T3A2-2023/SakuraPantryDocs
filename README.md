@@ -75,13 +75,11 @@ The overall function of the website is to operate as an online store for selling
 
 #### Users
 
-- Website visitors without authentication can view products.
+- Website visitors without authentication can search and view products.
 - Website visitors can add products to cart and will be prompted to register or log in if they wish to proceed to payment.
-- Users with authentication can perform Create, Read, Update, Account Deactivate operations on personal account information. 
-- Users with authentication can perform CRUD operations on product orders.
+- Users with authentication can perform Create and Read operations on product orders.
 
-#### Admins
-
+#### Admins 
 - Admins can perform Read operations on users' information.
 - Admins can perform CRUD operations on products.
 - Admins can perform CRUD operations on product categories.
@@ -99,7 +97,8 @@ The overall function of the website is to operate as an online store for selling
 #### Nice-to-have functionality
 
 - Full CRUD operations on billing and delivery information for users with authentication.
-- Full CRUD operations on users' information for admins.
+- Create, Read, Update, Deactivate operations on personal account information for users with authentication.
+- Update and Deactivate operations on users' information for admins.
 
 
 ## Sitemap
