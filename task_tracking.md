@@ -68,11 +68,16 @@ For Stage 1, we set one week as one sprint. We have decided to start a new sprin
 
 **Day 1 and Day 2**: Create an outline of project description. Create a project management plan. Discuss workflow and task delegation for sprint 1. Create GitHub organization and a repository for project documentation (Part A). Starting on R1, R4, R5, R6.
 
-![PartA-Sprint1-Day1&2](./docs/images/images/trello_screenshots/Stage1-Sprint1-Day1&2-151611.png)
+![PartA-Sprint1-Day1&2](./docs/images/trello_screenshots/Stage1-Sprint1-Day1&2-151611.png)
 
 **Day 3**: Complete R1-Project Description. Discuss user stories and brand design.
 
-![PartA-Sprint1-Day3](./docs/images/images/trello_screenshots/Stage1-Sprint1-Day3-1711.png)
+![PartA-Sprint1-Day1&2](./docs/images/trello_screenshots/Stage1-Sprint1-Day1&2-151611.png)
+
+**Day 3**: Complete R1-Project Description. Discuss user stories and brand design.
+
+![PartA-Sprint1-Day3](./docs/images/trello_screenshots/Stage1-Sprint1-Day3-1711.png)
+
 
 **Day 4**: Start working on colour scheme and brand design for the website. Complete the description for chosen planning methodology (Part A R6). Discuss more on user stories, wireframes and dataflow diagrams.
 
@@ -91,4 +96,5 @@ For Stage 1, we set one week as one sprint. We have decided to start a new sprin
 **Day 1 and Day 2**: Start of sprint 2. Complete website sitemap and Application Architecture Diagram (R3). Discuss on MVP approach to decide on keeping basic features/functionality that are achievable within the project scope. Working on adjustments for R1, R4 to align with changes of features/functionality. Still working on refining wireframes (R5). Discuss a new approach on Dataflow Diagrams (R2).
 
 ![PartA-Sprint2-Day1&2](./docs/images/trello_screenshots/Stage1-%20Sprint2-Day1&2-222311.png)
+
 

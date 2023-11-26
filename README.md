@@ -43,7 +43,8 @@ The app targets shoppers across Australia who are looking for unique and quality
 - Japanese people residing in Australia
 - Japanese food products lovers
 
-## User Stories
+
+## User Stories 
 We constructed user stories and personas to improve the online store's user experience for Japanese food products. The process involves identifying and embodying customers' unique needs and expectations, including a system administrator at Sakura company.
 
 Shizuka finds it challenging to travel to supermarkets where authentic Japanese food products are available whilst caring for her three children. Given the demands of raising her children, she is also looking for ways to save time when shopping for her daily food. She is also particularly concerned about the security of websites, especially when shopping online, and prefers to use sites that offer a secure login feature.
