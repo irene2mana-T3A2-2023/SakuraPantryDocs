@@ -43,63 +43,53 @@ The app targets shoppers across Australia who are looking for unique and quality
 - Japanese people residing in Australia
 - Japanese food products lovers
 
-### User Stories
+## Application Architecture Diagram
+![Application-Architecture-Diagram](./docs/images/application-architecture-diagram/application_architecture_diagram.png)
+
+## User Stories 
 
 Working in progress...
 
-## Features/Functionality
+## Functionality/Features
 
-The overall function of the website is to operate as an online store for selling Japanese food products. Below are the MVP features and functionality for the current stage of product development. 
+The MVP includes two parts: the static website and the admin dashboard. The overall function of the website is to operate as an online store for selling Japanese food products.
 
-### MVP Features
+### Features
 
 - User authentication and authorisation (Register and Login/Logout)
-- Password recovery
+- Sign-up confirmation via email
+- Saved login details
 - Site navigation
 - Product search by name and by categories
 - Product details view
 - Showcase of new arrivals and featured products
 - Shopping cart checkout
-- Contact form
-- User account view
-  - User profile
-  - Reset password
-  - Purchase history
-- Admin dashboard:
-  - Summary view
-  - User management
-  - Product management
-  - Order management
-
-### MVP Functionality
-
-#### Users
-
-- Website visitors without authentication can search and view products.
-- Website visitors can add products to cart and will be prompted to register or log in if they wish to proceed to payment.
-- Users with authentication can perform Create and Read operations on product orders.
-
-#### Admins 
-- Admins can perform Read operations on users' information.
-- Admins can perform CRUD operations on products.
-- Admins can perform CRUD operations on product categories.
-- Admins can perform Read and Update operations on orders.
-
-### Possible extensions
-
-#### Nice-to-have features
-- Sign-up confirmation via email
-- Saved login details
 - Calculation for different delivery options
 - Billing services
 - Order confirmation via email
+- Contact form
+- User account view
+- Admin dashboard:
+  - User management
+  - Product management
+  - Order management (nice to have)
 
-#### Nice-to-have functionality
+### Functionality
 
-- Full CRUD operations on billing and delivery information for users with authentication.
-- Create, Read, Update, Deactivate operations on personal account information for users with authentication.
-- Update and Deactivate operations on users' information for admins.
+#### Users
 
+- Website visitors without authentication can view products.
+- Website visitors can add products to cart and will be prompted to register or log in if they wish to proceed to payment.
+- Users with authentication can perform CRUD operations on personal account information.
+- Users with authentication can perform CRUD operations on product orders.
+- Users with authentication can perform CRUD operations on billing and delivery information.
+
+#### Admins
+
+- Admins can perform CRUD operations on users' information.
+- Admins can perform CRUD operations on products.
+- Admins can perform CRUD operations on product categories.
+- A nice-to-have functionality: Admins can have the following operations on product orders, including search orders, view orders, edit orders and track orders.
 
 ## Sitemap
 
