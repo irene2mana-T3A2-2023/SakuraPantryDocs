@@ -43,7 +43,10 @@ The app targets shoppers across Australia who are looking for unique and quality
 - Japanese people residing in Australia
 - Japanese food products lovers
 
-### User Stories
+## Application Architecture Diagram
+![Application-Architecture-Diagram](./docs/images/application-architecture-diagram/application_architecture_diagram.png)
+
+## User Stories 
 
 Working in progress...
 

@@ -92,3 +92,4 @@ For Stage 1, we set one week as one sprint. We have decided to start a new sprin
 
 ![PartA-Sprint2-Day1&2](./docs/images/trello_screenshots/Stage1-%20Sprint2-Day1&2-222311.png)
 
+
