@@ -47,9 +47,9 @@ The overall function of the website is to operate as an online store for selling
 - Password recovery
   - Allow users to reset password with reset link sent via email.
 - Site navigation and responsive design
-  - Intuitive and responsive UI/UX design for storefront to attract and engage audience.  
+  - Intuitive and responsive UX/UI design for storefront to attract and engage audience.  
 - Search functionality
-  - Allow users to search products by name or by categories.
+  - Allow users to search products by keywords.
 - Product catalogue
   - Showcase of new arrivals and featured products.
   - Display a list of products when filtered by categories.
@@ -66,8 +66,9 @@ The overall function of the website is to operate as an online store for selling
   - Change password
   - View order history
 - Admin dashboard:
-  - Summary view: allow admins to view total users, total products, total orders and total revenues.
+  - Summary view: allow admins to view total users, total products, total orders and total revenue.
   - User management
+  - Category management
   - Product management
   - Order management
 
