@@ -68,7 +68,7 @@ We constructed user stories and personas to improve the online store's user expe
 
 9. As an administrator, the ability to perform CRUD operations on products and select quantities will enable me to manage product inventory efficiently and maintain accurate stock listings.
 
-### Follow up market (nice to have)
+### Follow Up Market (nice to have)
 
 1. As a parent, I need secure logout to prevent accidental purchases from children. 
 2. As a user, I want saved login credentials for easy access.
