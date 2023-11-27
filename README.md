@@ -47,8 +47,45 @@ The app targets shoppers across Australia who are looking for unique and quality
 ![Application-Architecture-Diagram](./docs/images/application-architecture-diagram/application_architecture_diagram.png)
 
 ## User Stories 
+We constructed user stories and personas to improve the online store's user experience for Japanese food products. The process involves identifying and embodying customers' unique needs and expectations, including a system administrator at Sakura company.
 
-Working in progress...
+### Initial Market Research
+1. As a busy parent, I want search functionality with a category filtering option to save time searching for the right product.
+
+2. As a busy parent, I want a contact form 24/7 to quickly ask questions or queries about products and services in the online shop, regardless of time or location.
+
+3. As a user who often changes residence, I need to easily update my profile to ensure accurate delivery despite frequent changes in residence.
+
+4. As a user, I want the convenience of a Product Search Bar that allows me to find specific pantry items effortlessly. This will save me time and ensure that I quickly locate the products I'm looking for.
+
+5. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy. 
+
+6. As a cooking enthusiast, I want to have an intuitive platform where I can enjoy browsing the different ingredients and products exclusive to Japan.
+
+7. As a non-Japanese user who needs help understanding the Japanese language, I want a website with the products translated into English to understand the product details better.
+
+8. As an administrator, I want the ability to efficiently manage users by viewing their information and assisting with account-related matters.
+
+9. As an administrator, the ability to perform CRUD operations on products and select quantities will enable me to manage product inventory efficiently and maintain accurate stock listings.
+
+### Follow up market (nice to have)
+
+1. As a parent, I need secure logout to prevent accidental purchases from children. 
+2. As a user, I want saved login credentials for easy access.
+3. As a user, I want order confirmation emails to record my order history so I can keep track of stock levels in my pantry. 
+
+### User Personas
+Shizuka finds it challenging to travel to supermarkets where authentic Japanese food products are available whilst caring for her three children. Given the demands of raising her children, she is also looking for ways to save time when shopping for her daily food. She is also particularly concerned about the security of websites, especially when shopping online, and prefers to use sites that offer a secure login feature.
+![Shizuka_Kagami](./docs/images/user-pesonas/Shizuka_Kagami.png)
+
+Ronnie, a user who has recently become addicted to Japanese food, faces difficulties in finding Japanese food products locally. Ronnie seeks a platform that helps discover the latest Japanese food arrivals and is also user-friendly, providing easy access to essential information.
+![Ronnie_Campbell](./docs/images/user-pesonas/Ronnie_Campbell.png)
+
+Not everyone know about the website before stumbling on it while browsing the internet, Jinny is one of those people. She is among numerous random shoppers, who are the potential users of the website. As a first-time user, she expects the design and layout of the website to be appealing and memorable, easy and clear navigation to make her first shopping experience effortless and seamless. This would make her come back to shop the next time. Also, she would love to know the popular products with description in English and recommended list of products that go together to gather ideas for her cooking recipes. 
+![Jinny_Chang](./docs/images/user-pesonas/Jinny_Chang.png)
+
+The final user story focuses on Lara, a system administrator at Sakura Company. She aims to ensure efficient operations and deliver the best user experience. A reliable user database and product inventory management are essential to achieve this goal. The system is expected to be intuitive, easy to understand, and provide easy access to crucial features.
+![Lara_Macintosh](./docs/images/user-pesonas/Lara_Macintosh.png)
 
 ## Functionality/Features
 
