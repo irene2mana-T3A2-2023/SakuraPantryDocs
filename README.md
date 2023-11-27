@@ -1,4 +1,4 @@
-## T3A2 Full Stack App
+# T3A2 Full Stack App
 
 # Sakura Pantry - Japanese Online Grocery Store
 
