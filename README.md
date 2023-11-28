@@ -209,7 +209,7 @@ Users will be directed to the Forgot Password page after clicking the 'Forgot Pa
 
 ### Reset password page
 
-Upon clicking the reset password link received via email, users will be prompt to a page where they can establish a new password.
+Upon clicking the reset password link received via email, users will be prompted to a page where they can establish a new password.
 
 ![Reset Password page](./docs/images/wireframes/set-new-password-page.png)
 
