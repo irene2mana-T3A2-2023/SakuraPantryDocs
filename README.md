@@ -163,7 +163,7 @@ We constructed user stories and personas to improve the online store's user expe
 
 3. As a user, I want to be able to search products by keywords, which allows me to find specific pantry items effortlessly. This will save me time and ensure that I quickly locate the products I'm looking for.
 
-4. As a user, I would like a password recovery feature. As I do online shopping daily, I often forget my passwords.
+4. As a user, I want a password recovery feature. As I do online shopping daily, I often forget my passwords.
 
 5. As a user, I want a website with a responsive design. I use my smartphone to access websites, search for products and browse information. If a website supports responsive design, the information is organised and intuitive without forcing me to scroll or zoom.
 
@@ -171,7 +171,7 @@ We constructed user stories and personas to improve the online store's user expe
 
 7. As a user, I expect to see my order history. I can see which products I have purchased and how much I have paid for them, which will help me with my next order.
 
-8. As a user, I would like a navigation bar on the online shop. The navigation bar allows me to explore the entire site efficiently and provides easy access to site contents.
+8. As a user, I want a navigation bar on the online shop. The navigation bar allows me to explore the entire site efficiently and provides easy access to site contents.
 
 9. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy. 
 
@@ -181,7 +181,7 @@ We constructed user stories and personas to improve the online store's user expe
 
 12. As an administrator, I want to capture store analytics data to inform our development strategy, so I can ensure our resources are effectively aligned with business growth.
 
-13. As an administrator, the ability to perform CRUD operations on products and product categories will enable me to manage product inventory efficiently and maintain accurate stock listings.
+13. As an administrator, I want the ability to perform CRUD operations on products and product categories, which will enable me to manage product inventory efficiently and maintain accurate stock listings.
 
 ### Follow Up Market (nice to have)
 1. As a user, I expect to receive a sign-up confirmation email after the sign-up is complete. This will prevent any unauthorised use of my account.
