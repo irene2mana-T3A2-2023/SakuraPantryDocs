@@ -173,15 +173,15 @@ Miro was used to design and plan wireframes for features of the application. Our
 
 **Footer**, like the header, is a static component displayed at the bottom of every page (except the admin dashboard page). It typically contains company information, a contact form, and direct links to the company's social media profiles, such as Facebook and Instagram.
 
-### Home page
+### Homepage
 
-A homepage featuring a hero banner, new arrival products, and a recommended product list would be structured to both captivate and guide the user's shopping experience from the moment they arrive on the site.
+The homepage includes a hero banner, a section for new arrivals, and a section for featured products, all with a sliding effect for seamless responsive design. The layout is minimal yet effective, enabling easy navigation and enhancing the shopping experience from the first interaction.
 
 ![Home page](./docs/images/wireframes/homepage.png)
 
 ### Sign-in page
 
-The sign-in page is accessible to all visitors, allowing them to log into the website. Additionally, this page offers links that guide new users to the sign-up page and provides a redirect to the 'Forgot Password' page for users who need to recover their login credentials.
+The sign-in page is accessible to all visitors, allowing them to log into the website. Additionally, this page offers links that guide new users to the Sign-up page and provides a redirect to the Forgot Password page for users who need to recover their login credentials.
 
 ![Sign in page](./docs/images/wireframes/sign-in-page.png)
 
@@ -199,25 +199,25 @@ Users will be directed to the Forgot Password page after clicking the 'Forgot Pa
 
 ### Reset password page
 
-Upon clicking the reset password link received via email, users will be taken to a page where they can establish a new password.
+Upon clicking the reset password link received via email, users will be prompt to a page where they can establish a new password.
 
 ![Reset Password page](./docs/images/wireframes/set-new-password-page.png)
 
 ### Search page
 
-The search bar enables users to refine their product search using keywords or by selecting from the categories in the drop-down menu. The resulting matches will be presented on the search results page.
+The search bar allows users to search for products using keywords or filter products by categories using the drop-down menu. The matching results will be displayed on the search results page.
 
 ![Search page](./docs/images/wireframes/search-page.png)
 
 ### Product details page
 
-Clicking on a product image or name will direct users to the Product Details page, where they can find more information about the product and add it to their cart if they wish to make a purchase.
+Clicking on a product image or name will direct users to the Product Details page, where they can find more information about the product, view the stock quantity, and increase or decrease the number of items before adding it to their cart
 
 ![Product Details page](./docs/images/wireframes/product-details-page.png)
 
 ### Shopping cart page
 
-When users click the cart icon in the header, they will be taken to the Cart page. Here, they can view all the products they have added and can choose to proceed with their purchase by clicking the 'Proceed to checkout' button or continue shopping by clicking the 'Continue shopping' button.
+When users click the cart icon in the header, they will be prompted to the Cart page. Here, they can view all the products they have added and can choose to proceed with their purchase by clicking the 'Proceed to checkout' button or continue shopping by clicking the 'Continue shopping' button.
 
 ![Shopping Cart Page](./docs/images/wireframes/shopping-cart-page.png)
 
@@ -235,13 +235,13 @@ Authenticated users have access to their personal accounts where they can view t
 
 ### Admin dashboard page
 
-The admin dashboard is organized into four tabbed pages for streamlined navigation:
+The admin dashboard has four pages, which are structured as tabs:
 
-- Summary: This tab allows the admin to quickly glance at the business's key metrics, such as the total number of products, orders, and registered users, all consolidated on a single summary screen.
-- Products: This crucial section is the heart of product management within the admin dashboard, administrators have the authority to oversee the entire product list, introduce new ones, edit existing product details, or remove products from the listing.
+- Summary: This tab provides an overview of the business's key metrics, such as the total number of products, orders, and registered users, all consolidated on a single summary screen.
+- Products: This crucial section is the heart of product management within the admin dashboard, and the admin has the authority to view the entire list of products, add new products, edit existing product details, or remove products from the listing.
 - Categories: Similar to the Products tab, this section empowers the admin to manage product categories. Here, the admin can view all existing categories, add new categories, update information on current categories, or remove categories as needed. This ensures that the product catalog remains well-organized and easy to navigate.
-- Users: This tab enables the admin to review a list of all registered users on the platform.
-- Orders: In this section, the admin has the capability to overview the list of all orders, and update the statuses of these orders.
+- Users: This tab enables the admin to review the list of all registered users on the platform.
+- Orders: In this section, the admin is able to overview the list of all orders, and update the status of these orders.
   
 ![Admin Dashboard Page](docs/images/wireframes/admin-dashboard-page.png)
 
