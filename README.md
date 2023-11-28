@@ -156,6 +156,95 @@ Working in progress....
 
 Working in progress...
 
+# R5 - Wireframes
+
+Miro was used to design and plan wireframes for features of the application. Our web application adopts a consistent structure across all pages, which is divided into three main parts: the header, the body, and the footer.
+
+## Page structure overview
+
+**Header** is a persistent component that appears at the top of every page. It contains the following elements:
+
+- Logo: Our company logo is placed prominently in the header, typically in the top left corner. Clicking the logo will always redirect users to the homepage.
+- Search bar: Central to the header is a search bar that allows users to search for products by entering keywords. Additionally, users have the option to filter their search by categories to refine their results.
+- Sign in/Sign up Links: To the right of the search bar, users can find links to 'sign-in' or 'sign-up'. These are provided for easy navigation to authentication pages for user account management.
+- Cart Icon: An icon representing the shopping cart is also present. This icon displays a count of the number of products currently in the user's cart, offering users a quick view of their potential purchases.
+
+**Body** is the central part of each page and is dynamic. Its layout and content will change to align with the specific purpose of the page. For instance, the body on the product details page will contain images and descriptions of products, while on the checkout page, it will display a form for payment information.
+
+**Footer**, like the header, is a static component displayed at the bottom of every page (except the admin dashboard page). It typically contains company information, a contact form, and direct links to the company's social media profiles, such as Facebook and Instagram.
+
+### Home page
+
+A homepage featuring a hero banner, new arrival products, and a recommended product list would be structured to both captivate and guide the user's shopping experience from the moment they arrive on the site.
+
+![Home page](./docs/images/wireframes/homepage.png)
+
+### Sign-in page
+
+The sign-in page is accessible to all visitors, allowing them to log into the website. Additionally, this page offers links that guide new users to the sign-up page and provides a redirect to the 'Forgot Password' page for users who need to recover their login credentials.
+
+![Sign in page](./docs/images/wireframes/sign-in-page.png)
+
+### Sign up page
+
+The Sign-up page enables new visitors to create an account and includes a link for existing users to return to the Sign-in page.
+
+![Sign up page](./docs/images/wireframes/sign-up-page.png)
+
+### Forgot password page
+
+Users will be directed to the Forgot Password page after clicking the 'Forgot Password' link. They are required to enter their email address and click the 'Send' button to receive a link for resetting their password.
+
+![Forgot Password page](./docs/images/wireframes/forgot-password-page.png)
+
+### Reset password page
+
+Upon clicking the reset password link received via email, users will be taken to a page where they can establish a new password.
+
+![Reset Password page](./docs/images/wireframes/set-new-password-page.png)
+
+### Search page
+
+The search bar enables users to refine their product search using keywords or by selecting from the categories in the drop-down menu. The resulting matches will be presented on the search results page.
+
+![Search page](./docs/images/wireframes/search-page.png)
+
+### Product details page
+
+Clicking on a product image or name will direct users to the Product Details page, where they can find more information about the product and add it to their cart if they wish to make a purchase.
+
+![Product Details page](./docs/images/wireframes/product-details-page.png)
+
+### Shopping cart page
+
+When users click the cart icon in the header, they will be taken to the Cart page. Here, they can view all the products they have added and can choose to proceed with their purchase by clicking the 'Proceed to checkout' button or continue shopping by clicking the 'Continue shopping' button.
+
+![Shopping Cart Page](./docs/images/wireframes/shopping-cart-page.png)
+
+### Checkout page
+
+Users intent on proceeding to payment must log in or register an account to be taken to the Checkout page after selecting the 'Proceed to Checkout' button on the cart page. They are required to provide delivery address details and credit card information, and must review and confirm the order summary to finalize the payment process.
+
+![Checkout Page](./docs/images/wireframes/checkout-page.png)
+
+### User account page
+
+Authenticated users have access to their personal accounts where they can view their profiles and purchase history. Additionally, they have the option to change their current password in this section.
+
+![User Account Page](./docs/images/wireframes/user-account-page.png)
+
+### Admin dashboard page
+
+The admin dashboard is organized into four tabbed pages for streamlined navigation:
+
+- Summary: This tab allows the admin to quickly glance at the business's key metrics, such as the total number of products, orders, and registered users, all consolidated on a single summary screen.
+- Products: This crucial section is the heart of product management within the admin dashboard, administrators have the authority to oversee the entire product list, introduce new ones, edit existing product details, or remove products from the listing.
+- Categories: Similar to the Products tab, this section empowers the admin to manage product categories. Here, the admin can view all existing categories, add new categories, update information on current categories, or remove categories as needed. This ensures that the product catalog remains well-organized and easy to navigate.
+- Users: This tab enables the admin to review a list of all registered users on the platform.
+- Orders: In this section, the admin has the capability to overview the list of all orders, and update the statuses of these orders.
+  
+![Admin Dashboard Page](docs/images/wireframes/admin-dashboard-page.png)
+
 # R6 - Tasks planning and tracking
 
 View the description of the way tasks are allocated and tracked in the project [here](./task_tracking.md).
