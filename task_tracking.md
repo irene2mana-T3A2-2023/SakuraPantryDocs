@@ -90,6 +90,5 @@ For Stage 1, we set one week as one sprint. We have decided to start a new sprin
 
 **Day 1 and Day 2**: Start of sprint 2. Complete website sitemap and Application Architecture Diagram (R3). Discuss on MVP approach to decide on keeping basic features/functionality that are achievable within the project scope. Working on adjustments for R1, R4 to align with changes of features/functionality. Still working on refining wireframes (R5). Discuss a new approach on Dataflow Diagrams (R2).
 
-![PartA-Sprint2-Day1&2](./docs/images/trello_screenshots/Stage1-%20Sprint2-Day1&2-222311.png)
-
+![PartA-Sprint2-Day1&2](./docs/images/trello_screenshots/Stage1-Sprint2-Day1&2-222311.png)
 
