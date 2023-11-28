@@ -208,7 +208,7 @@ Ronnie, a user who has recently become addicted to Japanese food, faces difficul
 Not everyone know about the website before stumbling on it while browsing the internet, Jinny is one of those people. She is among numerous random shoppers, who are the potential users of the website. As a first-time user, she expects the design and layout of the website to be appealing and memorable, easy and clear navigation to make her first shopping experience effortless and seamless. This would make her come back to shop the next time. Also, she would love to know the popular products with description in English and recommended list of products that go together to gather ideas for her cooking recipes. 
 ![Jinny_Chang](./docs/images/user-pesonas/Jinny_Chang.png)
 
-The final user story focuses on Lara, a system administrator at Sakura Company. She aims to ensure efficient operations and deliver the best user experience. A reliable user database and product inventory management are essential to achieve this goal. The system is expected to be intuitive, easy to understand, and provide easy access to crucial features.
+The final user persona focuses on Lara, a system administrator at Sakura Company. She aims to ensure efficient operations and deliver the best user experience. A reliable user database and product inventory management are essential to achieve this goal. The system is expected to be intuitive, easy to understand, and provide easy access to crucial features.
 ![Lara_Macintosh](./docs/images/user-pesonas/Lara_Macintosh.png)
 
 # R6 - Tasks planning and tracking
