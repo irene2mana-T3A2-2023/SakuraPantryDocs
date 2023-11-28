@@ -249,15 +249,15 @@ The homepage includes a hero banner, a section for new arrivals, and a section f
 
 ### Sign-in page
 
-The sign-in page is accessible to all visitors, allowing them to log into the website. Additionally, this page offers links that guide new users to the Sign-up page and provides a redirect to the Forgot Password page for users who need to recover their login credentials.
+The Sign-in page is accessible to all visitors, allowing them to log into the website. Additionally, this page offers links that guide new users to the Sign-up page and provides a redirect to the Forgot Password page for users who need to recover their login credentials.
 
-![Sign in page](./docs/images/wireframes/sign-in-page.png)
+![Sign-in page](./docs/images/wireframes/sign-in-page.png)
 
 ### Sign up page
 
 The Sign-up page enables new visitors to create an account and includes a link for existing users to return to the Sign-in page.
 
-![Sign up page](./docs/images/wireframes/sign-up-page.png)
+![Sign-up page](./docs/images/wireframes/sign-up-page.png)
 
 ### Forgot password page
 
@@ -305,11 +305,11 @@ Authenticated users have access to their personal accounts where they can view t
 
 The admin dashboard has four pages, which are structured as tabs:
 
-- Summary: This tab provides an overview of the business's key metrics, such as the total number of products, orders, and registered users, all consolidated on a single summary screen.
-- Products: This crucial section is the heart of product management within the admin dashboard, and the admin has the authority to view the entire list of products, add new products, edit existing product details, or remove products from the listing.
-- Categories: Similar to the Products tab, this section empowers the admin to manage product categories. Here, the admin can view all existing categories, add new categories, update information on current categories, or remove categories as needed. This ensures that the product catalog remains well-organized and easy to navigate.
-- Users: This tab enables the admin to review the list of all registered users on the platform.
-- Orders: In this section, the admin is able to overview the list of all orders, and update the status of these orders.
+- **Summary**: This tab provides an overview of the business's key metrics, such as the total number of products, orders, and registered users, all consolidated on a single summary screen.
+- **Products**: This crucial section is the heart of product management within the admin dashboard, and the admin has the authority to view the entire list of products, add new products, edit existing product details, or remove products from the listing.
+- **Categories**: Similar to the Products tab, this section empowers the admin to manage product categories. Here, the admin can view all existing categories, add new categories, update information on current categories, or remove categories as needed. This ensures that the product catalog remains well-organized and easy to navigate.
+- **Users**: This tab enables the admin to review the list of all registered users on the platform.
+- **Orders**: In this section, the admin is able to overview the list of all orders, and update the status of these orders.
   
 ![Admin Dashboard Page](docs/images/wireframes/admin-dashboard-page.png)
 
