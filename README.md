@@ -5,9 +5,8 @@
 ## Resources
 
 - [Production site](https://www.google.com.au/)
-- [Back-end repo](https://www.google.com.au/)
-- [Front-end repo](https://www.google.com.au/)
-- [Documentation repo](https://www.google.com.au/)
+- [Back-end repo](https://github.com/irene2mana-T3A2-2023/SakuraPantryServer)
+- [Front-end repo](https://github.com/irene2mana-T3A2-2023/SakuraPantryClient)
 - [Trello board](https://trello.com/b/TE5Q9ZYj/t3a2-%F0%9F%8C%B8sakura-pantry)
 
 ## Contributors
