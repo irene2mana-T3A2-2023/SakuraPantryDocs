@@ -144,9 +144,50 @@ The core tech stack is MERN stack.
 
 ![Sitemap](./docs/images/sitemap/sitemap.png)
 
-## Level 1 Dataflow Diagram
+## Dataflow Diagram
 
-Working in progress....
+![Dataflow Diagram](./docs/images/DFD/Dataflow_Diagram.png)
+
+### Data description
+
+```
+User details:
+_id
+firstName: String
+lastName: String
+email: String
+password: String (hashed)
+phone: String
+role: String
+status: String
+dateCreated: Date
+resetPasswordToken: String (encrypted)
+resetPasswordExpires: Boolean
+address : {street: String, city: String, state: String, postcode: String}
+
+Product details:
+_id
+name: String
+description: String
+price: String
+categoryId: referencing _id from Categories collection
+stockQuantity: Number
+image: String (URL)
+productSlug: String
+
+Category details:
+_id
+name: String
+categorySlug: String
+
+Order details:
+_id
+userId: referencing _id from Categories
+products: [{productId: referencing _id from Products, quantity: Number}]
+totalPrice: Number
+orderDate: Date
+status: String
+```
 
 # R3 - Application Architecture Diagram
 
