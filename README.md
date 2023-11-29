@@ -225,7 +225,9 @@ We constructed user stories and personas to improve the online store's user expe
 
 13. As an administrator, I want the ability to perform CRUD operations on products and product categories, which will enable me to manage product inventory efficiently and maintain accurate stock listings.
 
-## Follow Up Market (nice to have)
+14. As an administrator, I want to be able to read and update customer orders. This feature will allow me to view detailed information on orders and respond to any problems or queries from a customer.
+
+## Follow-up Market (nice to have)
 
 1. As a user, I expect to receive a sign-up confirmation email after the sign-up is complete. This will prevent any unauthorised use of my account.
 
