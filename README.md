@@ -163,7 +163,7 @@ role: String
 status: String
 dateCreated: Date
 resetPasswordToken: String (encrypted)
-resetPasswordExpire: Boolean
+resetPasswordExpires: Boolean
 address : {street: String, city: String, state: String, postcode: String}
 
 Product details:
