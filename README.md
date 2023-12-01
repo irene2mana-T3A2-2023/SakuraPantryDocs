@@ -19,21 +19,29 @@
 
 ## Purpose
 
-We were approached by the owner of Sakura Company, a Japanese food wholesaler, to create an online store for Japanese food products.
+We were approached by the owner of Sakura Company, a Japanese food wholesaler, to develop an online store for selling authentic Japanese food products.
 
-The web app serves three main purposes:
+The web app serves three primary objectives:
 
-- To promote and increase access to Japanese food.
-- To provide a service to the Japanese community in Australia and to those who love Japanese food products.
-- To contribute to business and sales growth for the client, Sakura Company.
+- To enhance the promotion and accessibility of Japanese cuisine.
+- To provide an additional shopping channel to the Japanese community in Australia and to those who love Japanese food products.
+- To expand the market and promote sales growth for the client - Sakura Company.
 
 ### Problem
 
-Prior to having the website, the primary means of obtaining Japanese food was through Japanese supermarkets, mainly located in central areas. This posed geographical constraints for those living in the suburbs. Moreover, limited store numbers and early closing times, often by 5pm, made it challenging for full-time workers to visit. Setting up a physical shop also presented a significant hurdle for Sakura Company, especially with rising rents due to recent unforeseen inflation.
+Before the website's launch, the main source of Japanese food was supermarkets predominantly situated in central areas, presenting geographical limitations for suburban residents. Additionally, the restricted number of stores and early closing times, typically around 5 pm, posed challenges for full-time workers to access these stores. While Sakura Company currently sells its products through distribution to Asian grocery stores, this traditional approach faces challenges as the market experiences a saturation of new products from various countries introduced in recent years, resulting in stagnant consumption growth. In addition, establishing a brick-and-mortar store posed a considerable challenge for Sakura Company, particularly given the increased rental costs stemming from recent unforeseen inflation.
 
 ### Solution
 
-The launch of Sakura Pantry is envisioned to address these challenges. Sakura Pantry is an easy-to-use platform for purchasing Japanese food products, accessible to both city dwellers and those in the suburbs, operating 24/7. Unrestricted by the number of shops or closing times, it offers the convenience of online shopping, catering to the busy full-time workforce. By avoiding the need for physical shops, it provides a more cost-efficient means for Sakura Company to offer Japanese food products. In doing so, Sakura Pantry introduces a modern solution to access Japanese food ingredients in response to contemporary demands.
+The introduction of Sakura Pantry aims to effectively tackle these challenges. Sakura Pantry stands as a user-friendly platform for purchasing Japanese food products, catering to both urban and suburban residents and operating 24/7. Unconstrained by the limitations of physical stores, it provides the convenience of online shopping, especially beneficial for the busy full-time workforce. Offering an omnichannel shopping experience, Sakura Pantry becomes an additional avenue for Sakura Company to reach a broader customer base, promoting market expansion and driving sales growth. In this way, Sakura Pantry presents a contemporary solution that meets the growing demand, enhancing accessibility to Japanese food ingredients. 
+
+### Project goals
+
+The primary goal of the project is to design and launch a full-stack web application utilizing MERN stack, featuring a fully developed MVP with the aim of understanding customers behaviours and interest in the initial phase of development. This encompasses:
+
+- An intuitive and responsive front-end, enabling users to seamlessly browse and search.
+- A fully functional back-end API which allows users to register/login, add items to cart and checkout.
+- An internal system for the administrators to efficiently manage elements and activities that are involved in the website's operation. 
 
 ## Functionality/Features
 
@@ -150,7 +158,7 @@ The core tech stack is MERN stack.
 ### Data description
 
 ```
-User details:
+Users:
 _id
 firstName: String
 lastName: String
@@ -164,7 +172,7 @@ resetPasswordToken: String (encrypted)
 resetPasswordExpires: Boolean
 address : {street: String, city: String, state: String, postcode: String}
 
-Product details:
+Products:
 _id
 name: String
 description: String
@@ -172,16 +180,17 @@ price: String
 categoryId: referencing _id from Categories collection
 stockQuantity: Number
 image: String (URL)
+isAvailable: Boolean
 productSlug: String
 
-Category details:
+Categories:
 _id
 name: String
 categorySlug: String
 
-Order details:
+Orders:
 _id
-userId: referencing _id from Categories
+userId: referencing _id from Users collection
 products: [{productId: referencing _id from Products, quantity: Number}]
 totalPrice: Number
 orderDate: Date
