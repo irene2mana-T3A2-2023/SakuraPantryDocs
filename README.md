@@ -202,40 +202,50 @@ status: String
 ![Application-Architecture-Diagram](./docs/images/AAD/application_architecture_diagram.png)
 
 # R4 - User Stories
-
 We constructed user stories and personas to improve the online store's user experience for Japanese food products. The process involves identifying and embodying customers' unique needs and expectations, including a system administrator at Sakura company.
 
 ## Initial Market Research
+1. As a user, I want a password recovery feature. As I do online shopping daily, I often forget my passwords.
 
-1. As a busy parent, I want search functionality with a category filtering option to save time searching for the right product.
+2. As a user, I expect to see my order history. I can see which products I have purchased and how much I have paid for them, which will help me with my next order.
+
+3. As a user, I want a navigation bar on the online shop. The navigation bar allows me to explore the entire site efficiently and provides easy access to site contents.
+
+4. As an administrator, I want to capture store analytics data to inform our development strategy, so I can ensure our resources are effectively aligned with business growth.
+
+## User Personas
+After revising our initial survey, we decided to incorporate additional stories to better cater to specific personas.
+
+1. As a busy parent, I expect a shopping cart feature on the online shop. The shopping cart allows me to manage several products I purchase at once and shop efficiently, including changing quantities and deleting items.
 
 2. As a busy parent, I want a contact form 24/7 to quickly ask questions or queries about products and services in the online shop, regardless of time or location.
 
-3. As a user, I want to be able to search products by keywords, which allows me to find specific pantry items effortlessly. This will save me time and ensure that I quickly locate the products I'm looking for.
+3. As a busy parent, I want search functionality with a category filtering option to save time searching for the right product.
 
-4. As a user, I want a password recovery feature. As I do online shopping daily, I often forget my passwords.
+![Shizuka_Kagami](./docs/images/user_personas/Shizuka_Kagami.png)
 
-5. As a user, I want a website with a responsive design. I use my smartphone to access websites, search for products and browse information. If a website supports responsive design, the information is organised and intuitive without forcing me to scroll or zoom.
+4. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy.
 
-6. As a user, I expect a shopping cart feature on the online shop. The shopping cart allows me to manage several products I purchase at once and shop efficiently, including changing quantities and deleting items.
+5. As a user, I want to be able to search products by keywords, which allows me to find specific pantry items effortlessly. This will save me time and ensure that I quickly locate the products I'm looking for.
 
-7. As a user, I expect to see my order history. I can see which products I have purchased and how much I have paid for them, which will help me with my next order.
+6. As a user I want to have an intuitive platform where I can enjoy browsing the different ingredients and products exclusive to Japan.
 
-8. As a user, I want a navigation bar on the online shop. The navigation bar allows me to explore the entire site efficiently and provides easy access to site contents.
+7. As a non-Japanese user who needs help understanding the Japanese language, I want a website with the products translated into English to understand the product details better.
 
-9. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy. 
+![Ronnie_Campbell](./docs/images/user_personas/Ronnie_Campbell.png)
 
-10. As a cooking enthusiast, I want to have an intuitive platform where I can enjoy browsing the different ingredients and products exclusive to Japan.
+8. As a user, I want a website with a responsive design. I use my smartphone to access websites, search for products and browse information. If a website supports responsive design, the information is organised and intuitive without forcing me to scroll or zoom.
 
-11. As a non-Japanese user who needs help understanding the Japanese language, I want a website with the products translated into English to understand the product details better.
+![Jinny_Chang](./docs/images/user_personas/Jinny_Chang.png)
 
-12. As an administrator, I want to capture store analytics data to inform our development strategy, so I can ensure our resources are effectively aligned with business growth.
+9. As an administrator, I want the ability to perform CRUD operations on products and product categories, which will enable me to manage product inventory efficiently and maintain accurate stock listings.
 
-13. As an administrator, I want the ability to perform CRUD operations on products and product categories, which will enable me to manage product inventory efficiently and maintain accurate stock listings.
+10. As an administrator, I want to be able to read and update customer orders. This feature will allow me to view detailed information on orders and respond to any problems or queries from a customer.
 
-14. As an administrator, I want to be able to read and update customer orders. This feature will allow me to view detailed information on orders and respond to any problems or queries from a customer.
+![Lara_Macintosh](./docs/images/user_personas/Lara_Macintosh.png)
 
 ## Follow-up Market (nice to have)
+After further revision, we have organised the features between the MVP features for our website and what is nice to have if we have time to spare, which are listed below.
 
 1. As a user, I expect to receive a sign-up confirmation email after the sign-up is complete. This will prevent any unauthorised use of my account.
 
@@ -250,24 +260,6 @@ We constructed user stories and personas to improve the online store's user expe
 6. As a user who often changes residence, I need to easily update my profile to ensure accurate delivery despite frequent changes in residence.
 
 7. As an administrator, I want the ability to efficiently manage users by CRUD performing their information and assisting with account-related matters.
-
-## User Personas
-
-Shizuka finds it challenging to travel to supermarkets where authentic Japanese food products are available whilst caring for her three children. Given the demands of raising her children, she is also looking for ways to save time when shopping for her daily food.
-
-![Shizuka_Kagami](./docs/images/user_personas/Shizuka_Kagami.png)
-
-Ronnie, a user who has recently become addicted to Japanese food, faces difficulties in finding Japanese food products locally. Ronnie seeks a platform that helps discover the latest Japanese food arrivals and is also user-friendly, providing easy access to essential information.
-
-![Ronnie_Campbell](./docs/images/user_personas/Ronnie_Campbell.png)
-
-Not everyone know about the website before stumbling on it while browsing the internet, Jinny is one of those people. She is among numerous random shoppers, who are the potential users of the website. As a first-time user, she expects the design and layout of the website to be appealing and memorable, easy and clear navigation to make her first shopping experience effortless and seamless. This would make her come back to shop the next time. Also, she would love to know the popular products with description in English and recommended list of products that go together to gather ideas for her cooking recipes.
-
-![Jinny_Chang](./docs/images/user_personas/Jinny_Chang.png)
-
-The final user persona focuses on Lara, a system administrator at Sakura Company. She aims to ensure efficient operations and deliver the best user experience. A reliable user database and product inventory management are essential to achieve this goal. The system is expected to be intuitive, easy to understand, and provide easy access to crucial features.
-
-![Lara_Macintosh](./docs/images/user_personas/Lara_Macintosh.png)
 
 # R5 - Wireframes
 
