@@ -89,5 +89,15 @@ For Stage 1, we set one week as one sprint. We have decided to start a new sprin
 ### Sprint 2
 
 **Day 1 and Day 2**: Start of sprint 2. Complete website sitemap and Application Architecture Diagram (R3). Discuss on MVP approach to decide on keeping basic features/functionality that are achievable within the project scope. Working on adjustments for R1, R4 to align with changes of features/functionality. Still working on refining wireframes (R5). Discuss a new approach on Dataflow Diagrams (R2).
-
 ![PartA-Sprint2-Day1&2](./docs/images/trello_screenshots/Stage1-Sprint2-Day1&2-222311.png)
+
+**Day 3, Day 4 and Day 5**: Complete the refinement for project description (R1), user stories (R4) and wireframes (R5).
+Still working on the refinement of Dataflow Diagram (R2). Creating an outline of database schema. Complete the setup for front-end and back-end repositories. Complete initial app setup and configuration. 
+
+![PartA-Sprint2-Day345](./docs/images/trello_screenshots/Stage1-Sprint2-Day345-24252611.png)
+
+**Day 6 and Day 7**: Complete the review for Dataflow Diagram (R2). Complete an outline for database schema. Discussing task planning and task delegation for Part B. Preparing live presentation for part A. 
+
+![PartA-Sprint2-Day67](./docs/images/trello_screenshots/Stage1-Sprint2-Day6&7-293011.png)
+
+
