@@ -223,7 +223,7 @@ We constructed user stories and personas to improve the online store's user expe
 
 8. As a user, I want a navigation bar on the online shop. The navigation bar allows me to explore the entire site efficiently and provides easy access to site contents.
 
-9. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy.
+9. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy. 
 
 10. As a cooking enthusiast, I want to have an intuitive platform where I can enjoy browsing the different ingredients and products exclusive to Japan.
 
@@ -239,11 +239,11 @@ We constructed user stories and personas to improve the online store's user expe
 
 2. As a user, I want saved login credentials for easy access.
 
-3. As a parent, I need secure logout to prevent accidental purchases from children.
+3. As a parent, I need secure logout to prevent accidental purchases from children. 
 
 4. As a user, I expect to be able to choose different delivery options. I can compare different delivery options and choose the best option according to delivery time and price.
 
-5. As a user, I want order confirmation emails to record my order history so I can keep track of stock levels in my pantry.
+5. As a user, I want order confirmation emails to record my order history so I can keep track of stock levels in my pantry. 
 
 6. As a user who often changes residence, I need to easily update my profile to ensure accurate delivery despite frequent changes in residence.
 
