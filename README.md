@@ -33,7 +33,7 @@ Before the website's launch, the main source of Japanese food was supermarkets p
 
 ### Solution
 
-The introduction of Sakura Pantry aims to effectively tackle these challenges. Sakura Pantry stands as a user-friendly platform for purchasing Japanese food products, catering to both urban and suburban residents and operating 24/7. Unconstrained by the limitations of physical stores, it provides the convenience of online shopping, especially beneficial for the busy full-time workforce. Offering an omnichannel shopping experience, Sakura Pantry becomes an additional avenue for Sakura Company to reach a broader customer base, promoting market expansion and driving sales growth. In this way, Sakura Pantry presents a contemporary solution that meets the growing demand, enhancing accessibility to Japanese food ingredients. 
+The introduction of Sakura Pantry aims to effectively tackle these challenges. Sakura Pantry stands as a user-friendly platform for purchasing Japanese food products, catering to both urban and suburban residents and operating 24/7. Unconstrained by the limitations of physical stores, it provides the convenience of online shopping, especially beneficial for the busy full-time workforce. Offering an omnichannel shopping experience, Sakura Pantry becomes an additional avenue for Sakura Company to reach a broader customer base, promoting market expansion and driving sales growth. In this way, Sakura Pantry presents a contemporary solution that meets the growing demand, enhancing accessibility to Japanese food ingredients.
 
 ### Project goals
 
@@ -41,7 +41,7 @@ The primary goal of the project is to design and launch a full-stack web applica
 
 - An intuitive and responsive front-end, enabling users to seamlessly browse and search.
 - A fully functional back-end API which allows users to register/login, add items to cart and checkout.
-- An internal system for the administrators to efficiently manage elements and activities that are involved in the website's operation. 
+- An internal system for the administrators to efficiently manage elements and activities that are involved in the website's operation.
 
 ## Functionality/Features
 
@@ -54,7 +54,7 @@ The overall function of the website is to operate as an online store for selling
 - Password recovery
   - Allow users to reset password with reset link sent via email.
 - Site navigation and responsive design
-  - Intuitive and responsive UX/UI design for storefront to attract and engage audience.  
+  - Intuitive and responsive UX/UI design for storefront to attract and engage audience.
 - Search functionality
   - Allow users to search products by keywords.
 - Product catalogue
@@ -91,10 +91,10 @@ The overall function of the website is to operate as an online store for selling
 
 #### Admins
 
-- Admins can perform Read operation on users' information.
-- Admins can perform CRUD operations on products.
-- Admins can perform CRUD operations on product categories.
-- Admins can perform Read and Update operations on orders.
+- Admins can perform Read operation on user account details.
+- Admins can perform CRUD operations on products data.
+- Admins can perform CRUD operations on categories data.
+- Admins can perform Read and Update operations on orders. The deletion operation is restricted since orders data must be retained in the system for historical reference. Instead, orders can be marked as cancelled or archived.
 
 ### Possible extensions
 
@@ -223,7 +223,7 @@ We constructed user stories and personas to improve the online store's user expe
 
 8. As a user, I want a navigation bar on the online shop. The navigation bar allows me to explore the entire site efficiently and provides easy access to site contents.
 
-9. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy. 
+9. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy.
 
 10. As a cooking enthusiast, I want to have an intuitive platform where I can enjoy browsing the different ingredients and products exclusive to Japan.
 
@@ -239,11 +239,11 @@ We constructed user stories and personas to improve the online store's user expe
 
 2. As a user, I want saved login credentials for easy access.
 
-3. As a parent, I need secure logout to prevent accidental purchases from children. 
+3. As a parent, I need secure logout to prevent accidental purchases from children.
 
 4. As a user, I expect to be able to choose different delivery options. I can compare different delivery options and choose the best option according to delivery time and price.
 
-5. As a user, I want order confirmation emails to record my order history so I can keep track of stock levels in my pantry. 
+5. As a user, I want order confirmation emails to record my order history so I can keep track of stock levels in my pantry.
 
 6. As a user who often changes residence, I need to easily update my profile to ensure accurate delivery despite frequent changes in residence.
 
@@ -363,7 +363,7 @@ The admin dashboard has four pages, which are structured as tabs:
 - **Categories**: Similar to the Products tab, this section empowers the admin to manage product categories. Here, the admin can view all existing categories, add new categories, update information on current categories, or remove categories as needed. This ensures that the product catalog remains well-organized and easy to navigate.
 - **Users**: This tab enables the admin to review the list of all registered users on the platform.
 - **Orders**: In this section, the admin is able to overview the list of all orders, and update the status of these orders.
-  
+
 ![Admin Dashboard Page](docs/images/wireframes/admin-dashboard-page.png)
 
 # R6 - Tasks planning and tracking
