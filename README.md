@@ -257,9 +257,9 @@ In order to gain deeper insights into our target audience, we developed user per
 
 ![Jinny_Chang](./docs/images/user_personas/Jinny_Chang.png)
 
-8. As Jinny, a person who primarily accesses websites through smartphone for product searches and information browsing, I want a website with responsive design. A responsive design ensures that the information is organized and intuitive, eliminating the need for excessive scrolling or zooming on my mobile device.
+7. As Jinny, a person who primarily accesses websites through smartphone for product searches and information browsing, I want a website with responsive design. A responsive design ensures that the information is organized and intuitive, eliminating the need for excessive scrolling or zooming on my mobile device.
 
-9. As Jinny, a cooking enthusiast, I want a list of recommended products for diverse and delicious recipes, enhancing my culinary experiences and inspiring creativity in the kitchen.
+8. As Jinny, a cooking enthusiast, I want a list of recommended products for diverse and delicious recipes, enhancing my culinary experiences and inspiring creativity in the kitchen.
 
 **Lara represents the administrators of the website**
 
