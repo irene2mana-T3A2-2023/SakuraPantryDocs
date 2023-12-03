@@ -5,6 +5,7 @@
 ## Resources
 
 - [Production site](https://www.google.com.au/)
+- [Documentation](https://github.com/irene2mana-T3A2-2023/SakuraPantryDocs)
 - [Back-end repo](https://github.com/irene2mana-T3A2-2023/SakuraPantryServer)
 - [Front-end repo](https://github.com/irene2mana-T3A2-2023/SakuraPantryClient)
 - [Trello board](https://trello.com/b/TE5Q9ZYj/t3a2-%F0%9F%8C%B8sakura-pantry)
@@ -387,6 +388,6 @@ The admin dashboard has four pages, which are structured as tabs:
 
 # R6 - Tasks planning and tracking
 
-View the description of the way tasks are allocated and tracked in the project [here](./task_tracking.md).
+View the description of the way tasks are allocated and tracked for the planning stage (Part A) [here](./docs/task_tracking.md).
 
 Link to project management tool [Trello](https://trello.com/b/TE5Q9ZYj/t3a2-%F0%9F%8C%B8sakura-pantry).
