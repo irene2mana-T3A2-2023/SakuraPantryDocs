@@ -153,7 +153,7 @@ The core tech stack is MERN stack.
 
 ## Dataflow Diagram
 
-![Dataflow Diagram](./docs/images/DFD/Dataflow_Diagram.png)
+![Dataflow Diagram](./docs/images/DFD/SakuraPantry-DFD-final.png)
 
 ### Data description
 
@@ -170,7 +170,7 @@ isActive: Boolean
 dateCreated: Date
 resetPasswordToken: String (encrypted)
 resetPasswordExpires: Boolean
-address : {street: String, city: String, state: String, postcode: String}
+address: {street: String, city: String, state: String, postcode: String}
 
 Products:
 _id
@@ -191,10 +191,12 @@ categorySlug: String
 Orders:
 _id
 userId: referencing _id from Users collection
-products: [{productId: referencing _id from Products, quantity: Number}]
+orderedProducts: [{productId: referencing _id from Products, quantity: Number}]
 totalPrice: Number
 orderDate: Date
 status: String
+billingInfo:{cardholder:String, accountNumber:String, CVV:String}
+shippingAddress:{street: String, city: String, state: String, postcode: String}
 ```
 
 # R3 - Application Architecture Diagram
@@ -202,70 +204,87 @@ status: String
 ![Application-Architecture-Diagram](./docs/images/AAD/application_architecture_diagram.png)
 
 # R4 - User Stories
-
 We constructed user stories and personas to improve the online store's user experience for Japanese food products. The process involves identifying and embodying customers' unique needs and expectations, including a system administrator at Sakura company.
 
 ## Initial Market Research
 
-1. As a busy parent, I want search functionality with a category filtering option to save time searching for the right product.
+1. As a guest user, I want to search for products using keywords to quickly find items of interest.
 
-2. As a busy parent, I want a contact form 24/7 to quickly ask questions or queries about products and services in the online shop, regardless of time or location.
+2. As a guest user, I would like to view featured collections showcasing popular items.
 
-3. As a user, I want to be able to search products by keywords, which allows me to find specific pantry items effortlessly. This will save me time and ensure that I quickly locate the products I'm looking for.
+3. As a guest user, I want to add products to my shopping cart so that I can review and proceed to checkout.
 
-4. As a user, I want a password recovery feature. As I do online shopping daily, I often forget my passwords.
+4. As a guest user, I want a streamlined checkout process with clear steps to provide shipping information, select payment options, and place my order.
 
-5. As a user, I want a website with a responsive design. I use my smartphone to access websites, search for products and browse information. If a website supports responsive design, the information is organised and intuitive without forcing me to scroll or zoom.
+5. As a guest user, I want a navigation bar on the online shop. The navigation bar allows me to explore the entire site efficiently and provides easy access to site contents.
 
-6. As a user, I expect a shopping cart feature on the online shop. The shopping cart allows me to manage several products I purchase at once and shop efficiently, including changing quantities and deleting items.
+6. As a guest user, I want to register for an account on an e-commerce website so that I can track my orders, benefit from personalized features, and experience a seamless and tailored shopping journey. 
 
-7. As a user, I expect to see my order history. I can see which products I have purchased and how much I have paid for them, which will help me with my next order.
+7. As a registered user, I want to log in to my account with my credentials to securely access personalized features and make purchases.
 
-8. As a user, I want a navigation bar on the online shop. The navigation bar allows me to explore the entire site efficiently and provides easy access to site contents.
+8. As a registered user, I want to view my order history to track previous purchases and check the status of current orders.
 
-9. As a user who loves new discoveries, I want a new arrivals section to give me new suggestions on Japanese products I might enjoy. 
+9. As an administrator, I want users to register and log in for the payment process, providing a personalized experience while ensuring the integrity and confidentiality of their accounts and data. 
 
-10. As a cooking enthusiast, I want to have an intuitive platform where I can enjoy browsing the different ingredients and products exclusive to Japan.
-
-11. As a non-Japanese user who needs help understanding the Japanese language, I want a website with the products translated into English to understand the product details better.
-
-12. As an administrator, I want to capture store analytics data to inform our development strategy, so I can ensure our resources are effectively aligned with business growth.
-
-13. As an administrator, I want the ability to perform CRUD operations on products and product categories, which will enable me to manage product inventory efficiently and maintain accurate stock listings.
-
-## Follow Up Market (nice to have)
-
-1. As a user, I expect to receive a sign-up confirmation email after the sign-up is complete. This will prevent any unauthorised use of my account.
-
-2. As a user, I want saved login credentials for easy access.
-
-3. As a parent, I need secure logout to prevent accidental purchases from children. 
-
-4. As a user, I expect to be able to choose different delivery options. I can compare different delivery options and choose the best option according to delivery time and price.
-
-5. As a user, I want order confirmation emails to record my order history so I can keep track of stock levels in my pantry. 
-
-6. As a user who often changes residence, I need to easily update my profile to ensure accurate delivery despite frequent changes in residence.
-
-7. As an administrator, I want the ability to efficiently manage users by CRUD performing their information and assisting with account-related matters.
+10. As an administrator, I want to compile a concise summary of store data to guide our development strategy, ensuring optimal alignment of resources with our business growth.
 
 ## User Personas
 
-Shizuka finds it challenging to travel to supermarkets where authentic Japanese food products are available whilst caring for her three children. Given the demands of raising her children, she is also looking for ways to save time when shopping for her daily food.
+In order to gain deeper insights into our target audience, we developed user personas to delve into the goals and needs of our targeted users. The following details were compiled after consulting with the target audience regarding their objectives and experiences in pursuit of those goals.
+
+**Shizuka represents Japanese people residing in Australia**
 
 ![Shizuka_Kagami](./docs/images/user_personas/Shizuka_Kagami.png)
 
-Ronnie, a user who has recently become addicted to Japanese food, faces difficulties in finding Japanese food products locally. Ronnie seeks a platform that helps discover the latest Japanese food arrivals and is also user-friendly, providing easy access to essential information.
+1. As Shizuka, I want a customizable shopping cart feature on the online shop. This feature enables me to efficiently manage multiple products in my cart, allowing me to adjust quantities and remove items as needed.
+
+2. As Shizuka, I want a 24/7 accessible contact form on the online shop, enabling me to swiftly inquire about products and services at any time and from any location.
+
+3. As Shizuka, I want a search feature with category filtering options to streamline the process of finding the right product and save valuable time.
+
+**Ronnie represents non-Japanese people who loves Japanese food products**
 
 ![Ronnie_Campbell](./docs/images/user_personas/Ronnie_Campbell.png)
 
-Not everyone know about the website before stumbling on it while browsing the internet, Jinny is one of those people. She is among numerous random shoppers, who are the potential users of the website. As a first-time user, she expects the design and layout of the website to be appealing and memorable, easy and clear navigation to make her first shopping experience effortless and seamless. This would make her come back to shop the next time. Also, she would love to know the popular products with description in English and recommended list of products that go together to gather ideas for her cooking recipes.
+4. As Ronnie, a person who enjoys discovering new items, I want a 'New Arrivals' section to provide me with fresh suggestions on Japanese products that I might find appealing.
+
+5. As Ronnie, I want an intuitive platform that allows me to enjoy exploring the diverse range of ingredients and products exclusive to Japan.
+
+6. As Ronnie, a non-Japanese user in need of assistance with the Japanese language, I want a website where products are translated into English, facilitating a better understanding of product details.
+
+**Jinny represents users who enjoy internet browsing for recipes and food ingredients.**
 
 ![Jinny_Chang](./docs/images/user_personas/Jinny_Chang.png)
 
-The final user persona focuses on Lara, a system administrator at Sakura Company. She aims to ensure efficient operations and deliver the best user experience. A reliable user database and product inventory management are essential to achieve this goal. The system is expected to be intuitive, easy to understand, and provide easy access to crucial features.
+8. As Jinny, a person who primarily accesses websites through smartphone for product searches and information browsing, I want a website with responsive design. A responsive design ensures that the information is organized and intuitive, eliminating the need for excessive scrolling or zooming on my mobile device.
+
+9. As Jinny, a cooking enthusiast, I want a list of recommended products for diverse and delicious recipes, enhancing my culinary experiences and inspiring creativity in the kitchen.
+
+**Lara represents the administrators of the website**
 
 ![Lara_Macintosh](./docs/images/user_personas/Lara_Macintosh.png)
+
+9. As Lara, I want the ability to perform CRUD operations on products and product categories, which will enable me to manage product inventory efficiently and maintain accurate stock listings.
+
+10. As Lara, I want the ability to read and update customer orders. This feature empowers me to access detailed order information, track order status and efficiently address any issues or inquiries from customers.
+
+## Follow-up Market (nice to have)
+
+After further revision, we have developed additional user stories based on both general users and targeted users to plan for more advanced nice-to-have features that aim to enhance user experience, as outlined below:
+
+1. As a registered user, I want to receive a confirmation email upon completing the sign-up process, providing an added layer of security against unauthorized access to my account.
+
+2. As a registered user, I want the option to save my login credentials for convenient and swift access to my account.
+
+3. As a registered user, I want order confirmation emails for a detailed record of my past purchases, making it easy to reference for future transactions.
+
+4. As a registered user, I want the ability to choose from various delivery options. This allows me to compare and select the most suitable option based on factors such as delivery time and price.
+
+5. As a parent, I want a secure logout feature to prevent accidental purchases by children and ensure the security of my account.
+
+6. As a user who frequently changes residence, I want an easy-to-use profile update feature to ensure accurate delivery information despite my frequent changes in address.
+
+7. As an administrator, I want the ability to efficiently manage users by performing CRUD operations on their information and assisting with account-related matters.
 
 # R5 - Wireframes
 
@@ -360,9 +379,10 @@ The admin dashboard has four pages, which are structured as tabs:
 
 - **Summary**: This tab provides an overview of the business's key metrics, such as the total number of products, orders, and registered users, all consolidated on a single summary screen.
 - **Products**: This crucial section is the heart of product management within the admin dashboard, and the admin has the authority to view the entire list of products, add new products, edit existing product details, or remove products from the listing.
-- **Categories**: Similar to the Products tab, this section empowers the admin to manage product categories. Here, the admin can view all existing categories, add new categories, update information on current categories, or remove categories as needed. This ensures that the product catalog remains well-organized and easy to navigate.
+- **Categories**: Similar to the Products tab, this section empowers the admin to manage product categories. Here, the admin can view all existing categories, add new categories, update information on current categories, or remove categories as needed. This ensures that the product catalogue remains well-organized and easy to navigate.
 - **Users**: This tab enables the admin to review the list of all registered users on the platform.
 - **Orders**: In this section, the admin is able to overview the list of all orders, and update the status of these orders.
+
 ![Admin Dashboard Page](docs/images/wireframes/admin-dashboard-page.png)
 
 # R6 - Tasks planning and tracking
