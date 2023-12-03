@@ -118,4 +118,4 @@ Still working on the refinement of Dataflow Diagram (R2). Creating an outline of
 
 ### Stage 2: Coding and Testing - Part B
 
-In Part B, we continue to adhere to the same Agile methodology used in Part A, with an emphasis in enhancing team collaboration during the coding process. The explanation of the task delegation methodology and the documentation of task tracking will continue from this section onwards.
+In Part B, we continue to adhere to the same Agile methodology used in Part A, with an emphasis on enhancing team collaboration during the coding process. The explanation of the task delegation methodology and the documentation of task tracking will continue in this section.
