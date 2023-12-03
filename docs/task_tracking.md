@@ -12,7 +12,7 @@
 
   - Tasks are broken down from biggest objectives (initiatives/requirements) to the smallest details (user stories), so that they are visible, manageable and achievable.
 
-**Part B task planning and delegation will be explained more here.....**
+  - We also created task labels to facilitate easy visualization of each task's type and status, such as `doing`, `done`, `modifying`, `back-end`, `front-end`, and more.
 
 ## Kanban board
 
@@ -58,46 +58,64 @@ There are three main tasks in the development process:
 
 - Stage 1: Initial Design and Planning
 - Stage 2: Coding and Testing
-- Stage 3: Documentation
+- Stage 3: Compiling documentation
+
+### Stage 1: Initial Design and Planning - Part A
 
 See the below screenshots of tasks tracking on Trello for the Stage 1:
 
 For Stage 1, we set one week as one sprint. We have decided to start a new sprint on Tuesdays.
 
-### Sprint 1
+#### Sprint 1
 
 **Day 1 and Day 2**: Create an outline of project description. Create a project management plan. Discuss workflow and task delegation for sprint 1. Create GitHub organization and a repository for project documentation (Part A). Starting on R1, R4, R5, R6.
 
-![PartA-Sprint1-Day1&2](./docs/images/trello_screenshots/Stage1-Sprint1-Day1&2-151611.png)
+![PartA-Sprint1-Day1&2](./images/trello_screenshots/Stage1-Sprint1-Day1&2-151611.png)
 
 **Day 3**: Complete R1-Project Description. Discuss user stories and brand design.
 
-![PartA-Sprint1-Day3](./docs/images/trello_screenshots/Stage1-Sprint1-Day3-1711.png)
+![PartA-Sprint1-Day3](./images/trello_screenshots/Stage1-Sprint1-Day3-1711.png)
 
 **Day 4**: Start working on colour scheme and brand design for the website. Complete the description for chosen planning methodology (Part A R6). Discuss more on user stories, wireframes and dataflow diagrams.
 
-![PartA-Sprint1-Day4](./docs/images/trello_screenshots/Stage1-Sprint1-Day4-1811.png)
+![PartA-Sprint1-Day4](./images/trello_screenshots/Stage1-Sprint1-Day4-1811.png)
 
 **Day 5 and Day 6**: Complete brand design and decide on colour scheme. Still working on refining user stories, wireframes. Reviewing Application Architecture Diagram.
 
-![PartA-Sprint1-Day5&6](./docs/images/trello_screenshots/Stage1-Sprint1-Day5&6-192011.png)
+![PartA-Sprint1-Day5&6](./images/trello_screenshots/Stage1-Sprint1-Day5&6-192011.png)
 
 **Day 7**: End of sprint 1. All tasks have been planned out. A drafted version of R3, R4, R5 have been completed, discussed and reviewed among team members. The next set of tasks for sprint 2 will focus on the refinement of R3, R4, R5 before publishing to README.md. Discuss the multiple diagrams approach for dataflow diagrams, tasks have been delegated for completing R2 in the next sprint.
 
-![PartA-Sprint1-Day7](./docs/images/trello_screenshots/Stage1-Sprint1-Day7-2111.png)
+![PartA-Sprint1-Day7](./images/trello_screenshots/Stage1-Sprint1-Day7-2111.png)
 
-### Sprint 2
+#### Sprint 2
 
 **Day 1 and Day 2**: Start of sprint 2. Complete website sitemap and Application Architecture Diagram (R3). Discuss on MVP approach to decide on keeping basic features/functionality that are achievable within the project scope. Working on adjustments for R1, R4 to align with changes of features/functionality. Still working on refining wireframes (R5). Discuss a new approach on Dataflow Diagrams (R2).
-![PartA-Sprint2-Day1&2](./docs/images/trello_screenshots/Stage1-Sprint2-Day1&2-222311.png)
+![PartA-Sprint2-Day1&2](./images/trello_screenshots/Stage1-Sprint2-Day1&2-222311.png)
 
 **Day 3, Day 4 and Day 5**: Complete the refinement for project description (R1), user stories (R4) and wireframes (R5).
 Still working on the refinement of Dataflow Diagram (R2). Creating an outline of database schema. Complete the setup for front-end and back-end repositories. Complete initial app setup and configuration. 
 
-![PartA-Sprint2-Day345](./docs/images/trello_screenshots/Stage1-Sprint2-Day345-24252611.png)
+![PartA-Sprint2-Day345](./images/trello_screenshots/Stage1-Sprint2-Day345-24252611.png)
 
 **Day 6 and Day 7**: Complete the review for Dataflow Diagram (R2). Complete an outline for database schema. Discussing task planning and task delegation for Part B. Preparing live presentation for part A. 
 
-![PartA-Sprint2-Day67](./docs/images/trello_screenshots/Stage1-Sprint2-Day6&7-293011.png)
+![PartA-Sprint2-Day67](./images/trello_screenshots/Stage1-Sprint2-Day6&7-272811.png)
 
+#### Sprint 3
 
+**Day 1 and Day 2**: Working on modification on R1, R2, R3, R4 based on educator's feedback after live presentation. Discuss task planning for part B and complete task division. Creating an outline for API endpoints.
+
+![PartA-Sprint3-Day12](./images/trello_screenshots/Stage1-Sprint3-Day1&2-293011.png)
+
+**Day 3 and Day 4**: Complete modification on R1 and R3. Complete task delegation for major back-end tasks.
+
+![PartA-Sprint3-Day34](./images/trello_screenshots/Stage1-Sprint3-Day3&4-010212.png)
+
+**Day 5**: Complete modification on R2 and R4. Review and refine Part A documentation before submission. Start working on setup and configuration for code formatter tools (Eslint, Prettier, Husky and Lint-Staged), front-end (Taiwind, NextUI) and back-end (env, Node, Express, MongoDB). Start working on API endpoints. 
+
+![PartA-Sprint3-Day5](./images/trello_screenshots/Stage1-Sprint3-Day5-0312.png)
+
+### Stage 2: Coding and Testing - Part B
+
+In Part B, we continue to adhere to the same Agile methodology used in Part A, with an emphasis in enhancing team collaboration during the coding process. The explanation of the task delegation methodology and the documentation of task tracking will continue from this section onwards.
