@@ -4,7 +4,7 @@
 
 ## Resources
 
-- [Production site](https://www.google.com.au/)
+- [Production site](https://sakurapantry.netlify.app/)
 - [Documentation](https://github.com/irene2mana-T3A2-2023/SakuraPantryDocs)
 - [Back-end repo](https://github.com/irene2mana-T3A2-2023/SakuraPantryServer)
 - [Front-end repo](https://github.com/irene2mana-T3A2-2023/SakuraPantryClient)
